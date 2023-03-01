@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style>
+
+        .responsive{
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Crear anclaje interno -->
+    <a id="INICIO"></a><br>
+    <!-- Creacion etiqueta marquesina -->
+    <marquee behavior="alternate" direction="right"style="font-size : 35px; background-color: gray;">web responsive con hipervinculos y videos</marquee>
+    <hr>
+    <hr>
+    <!-- Crear seccion de hipervinculos -->
+    <h1>Seccion hipervinculos</h1>
+    <br>
+    <center>
+        <a href="https://www.youtube.com/"target="_blank">youtube</a><br><br>
+        <a href="https://www.eltiempo.com"target="_blank">EL TIEMPO</a><br><br>
+        <a href="https://www.incap.edu.co"target="_blank">incap</a><br><br>
+        <a href="https://www.unigermana.edu.co"target="_blank">Unigermana</a><br><br>
+        <a href="https://www.as.com"target="_blank">AS</a><br><br>
+
+        
+    </center>
+    <hr>
+    <hr>
+    <!-- SECCION REDES SOCIALES -->
+    <h2>seccion redes sociales </h2>
+    <center>
+        <img class="responsive" src="https://placekitten.com/200/300" alt="">
+    </center>
+
+
+</body>
+</html>
